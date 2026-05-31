@@ -1,0 +1,7 @@
+* text=auto
+*.py text diff=python
+*.yml text
+*.md text
+*.txt text
+*.xml text
+*.json text
