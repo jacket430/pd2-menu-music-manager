@@ -7,14 +7,15 @@ A desktop GUI tool for searching, downloading, converting, and installing custom
 - **Search** — Query community-hosted HiFi music APIs for tracks
 - **Stream resolution** — Resolve stream URLs via Qobuz API instances using ISRC codes
 - **Download & convert** — Downloads audio and converts to OGG Vorbis (libvorbis) using FFmpeg
-- **Auto-mod creation** — Generates `main.xml` with `<MenuMusic>`, localization, and optional cover art
-- **Mod management** — Browse, rename, adjust volume, preview, and delete installed mods
+- **Auto-mod creation** — Generates `main.xml` with `<MenuMusic>`, localization, and fetches album art
+- **Mod management** — Browse, rename, adjust volume, preview, and delete installed music mods
 - **FFmpeg auto-download** — Automatically downloads FFmpeg from BtbN builds if not found
 
 ## Requirements
 
 - Python 3.12+
 - Windows (for the pre-built .exe; the Python source works cross-platform with modifications)
+- BeardLib mod installed for Payday 2
 
 ## Quick Start (from source)
 
@@ -48,4 +49,4 @@ The compiled `.exe` will be in `dist/`.
 
 ## Downloads
 
-Pre-built binaries are available on the [Releases](https://github.com/USER/pd2-menu-music-manager/releases) page.
+Pre-built binaries are available on the [Releases](https://github.com/jacket430/pd2-menu-music-manager/releases) page.
